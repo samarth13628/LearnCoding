@@ -32,7 +32,7 @@ class Vehicle {
         }
     }
     public void stop() {
-       ignitionOn = true;
+       ignitionOn = false;
        system.out.println("The vehicle has stopped.");
     }
 }
