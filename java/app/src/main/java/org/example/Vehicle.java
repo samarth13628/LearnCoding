@@ -31,4 +31,8 @@ class Vehicle {
             System.out.println("Cannot move. The ignition is off.");
         }
     }
+    public void stop() {
+       ignitionOn = false;
+       system.out.println("The vehicle has stopped.");
+    }
 }
